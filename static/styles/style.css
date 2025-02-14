@@ -1,0 +1,42 @@
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.inner-header {
+  width: 90%;
+  margin: 0 auto;
+  padding: 40px 75px;
+  border-bottom: 1px solid #000000;
+}
+
+.inner-header .logo {
+  transition: 0.2s ease-in-out;
+}
+
+.inner-header {
+  position: absolute;
+}
+
+.inner-header .logo:hover {
+  filter: drop-shadow(1px 4px 10px #05641ebb);
+  transform: scale(1.1);
+}
+
+.inner-header nav ul li {
+  margin-right: 40px;
+}
+
+.right-icons ul li {
+  margin-right: 30px;
+}
+
+.inner-header nav ul li a {
+  font-size: 18px;
+  color: #000000;
+}
+
+.inner-header nav ul li a:hover {
+  text-shadow: 2px 1px 50px #01601af3;
+}
