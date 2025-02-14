@@ -11,12 +11,6 @@
   border-bottom: 1px solid #000000;
 }
 
-.inner-header nav {
-  flex-grow: 1;
-  display: flex;
-  justify-content: flex-end;
-}
-
 .inner-header .logo {
   transition: 0.2s ease-in-out;
 }
@@ -93,6 +87,12 @@ h1 {
 
 .buttons button:hover {
   text-shadow: 2px 1px 10px #adf13fef;
+}
+
+.social-icons {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
 .social-icons img:hover {
