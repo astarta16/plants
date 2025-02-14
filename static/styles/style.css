@@ -11,6 +11,12 @@
   border-bottom: 1px solid #000000;
 }
 
+.inner-header nav {
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
 .inner-header .logo {
   transition: 0.2s ease-in-out;
 }
@@ -57,4 +63,39 @@
 
 .inner-main img:hover {
   filter: drop-shadow(0px 4px 4px #01601af3);
+}
+
+.inner-main .home-plants {
+  max-width: 500px;
+}
+
+h1 {
+  font-size: 44px;
+  color: #000000;
+  margin-bottom: 15px;
+}
+
+.home-plants p {
+  font-size: 20px;
+  color: #000000;
+  margin-bottom: 30px;
+}
+
+.buttons button {
+  cursor: pointer;
+  font-size: 18px;
+  color: white;
+  background-color: #01601af3;
+  border-radius: 10px;
+  padding: 15px 50px;
+  width: 196px;
+}
+
+.buttons button:hover {
+  text-shadow: 2px 1px 10px #adf13fef;
+}
+
+.social-icons img:hover {
+  filter: drop-shadow(0px 4px 4px #01601af3);
+  transform: scale(1.1);
 }
