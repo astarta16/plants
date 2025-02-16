@@ -99,3 +99,23 @@ h1 {
   filter: drop-shadow(0px 4px 4px #01601af3);
   transform: scale(1.1);
 }
+
+/* plants grid section */
+section .section-container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 75px;
+}
+
+.section-container h3 {
+  font-size: 36px;
+  color: #000000;
+  margin: 100px 0 20px 0;
+}
+
+.plant-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 50px;
+  row-gap: 60px;
+}
